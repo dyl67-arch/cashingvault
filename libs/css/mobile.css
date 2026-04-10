@@ -1,0 +1,87 @@
+@media(max-width:800px){
+    .banner-text{
+        line-height: 45px;
+        font-size: 34px;
+        letter-spacing: 3px;
+    }
+    .banner{
+        padding: 80px 0 0 0;
+    }
+    .other-text{
+        padding: 80px 0 0 0 !important;
+        text-align: center;
+    }
+    .appp{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .gh{
+        margin: 20px 0;
+    }
+    .testifier-comment{
+        width:100% !important;
+        margin: 0 auto;
+    }
+    .begin-other{
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.9)),url(../img/bannerbg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        /* background: rgb(24, 49, 83); */
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+    .about-img-size{
+        height: 300px;
+    }
+    .form-area{
+        align-content: center;
+        width: 80%;
+        margin: auto !important;
+        /* padding: 20px 20px !important; */
+    }
+    .form-area .form-control{
+        width: 100% !important;
+    }
+    .form-holder{
+        width:100%;
+    }
+    .navv{
+        display: none;
+    }
+    .crypto-ar{
+        width:100%;
+        margin: auto;
+    }
+    .btn-form-rr{
+        margin: 0 auto;
+    }
+    .hide-bar{
+        display: block;
+        padding: 22px 25px 0 0;
+    }
+    .logo{
+        font-family: 'Leckerli One', cursive;
+        padding: 20px 0 20px 0;
+    }
+    .reg-log-btn{
+        padding: 20px 0 0 0;
+    }
+    .other-banner-text{
+        line-height: unset;
+        font-size: 24px;
+    }
+    .other-text{
+        padding: 38px;
+        text-align: center;
+    }
+    .other-banner-sub-txt{
+        font-size: 18px;
+        margin: 20px 0 0 0 ;
+        color: #fff;
+    }
+    .begin-other{
+        height: 50vh;
+        width: 100%;
+    }
+}

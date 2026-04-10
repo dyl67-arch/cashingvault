@@ -1,0 +1,2 @@
+[14-Oct-2024 11:44:57 UTC] PHP Warning:  Undefined array key "stock" in /home/globalm4/public_html/admin/process/transact.php on line 29
+[14-Oct-2024 11:44:57 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/globalm4/public_html/admin/process/transact.php on line 29

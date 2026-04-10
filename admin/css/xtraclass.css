@@ -1,0 +1,78 @@
+.trade-guide {
+    min-height: 100px;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 3px 2px 3px gray;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.trade-guide .step-guide{
+    background: #040fa3bb;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    /* line-height: 80px; */
+    padding-top: 10px;
+}
+@media (max-width: 768px){
+    .trade-guide{
+        min-height: 70px;
+        padding: 10px;
+    }
+    .trade-guide .step-guide{
+        height: 40px;
+        width: 40px; 
+        padding-top: 5px;
+    }
+    .trade-guide .step-guide h2{
+        font-size:14px;
+    }
+    .trade-guide .step-guide p{
+        font-size: 10px;
+    }
+}
+.widget-hold{
+    min-height: 250px;
+    width:100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 24px;
+}
+.widget-hold::-webkit-scrollbar{
+    display: none;
+}
+.img-size{
+    height: 40px;
+    width: 140px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.form input{
+    width: 250px !important;
+}
+.form select{
+    width: 300px !important;
+}
+.sub-btn{
+    width: auto;
+    padding: 10px;
+}
+.widget-hold2{
+    min-height: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+.widget-hold2::-webkit-scrollbar{
+    display: none;
+}
